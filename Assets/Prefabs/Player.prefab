@@ -589,7 +589,7 @@ GameObject:
   - component: {fileID: 6995604586749506661}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -654,7 +654,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 122
   m_CollisionDetection: 0
 --- !u!65 &6995604586749506663
 BoxCollider:
@@ -681,9 +681,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a7b020a37a2c4a5c951eb0f9e0d729f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 10
-  gravityModifier: 1
+  jumpForce: 20
+  gravityModifier: 3
   isOnGround: 1
+  gameOver: 0
 --- !u!1 &6995604586749604573
 GameObject:
   m_ObjectHideFlags: 0
