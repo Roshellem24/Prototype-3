@@ -598,6 +598,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6995604586749506660, guid: 455cb841ed7754b4f8a65f0a62122408,
+        type: 3}
+      propertyPath: m_Mass
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 6995604586749506661, guid: 455cb841ed7754b4f8a65f0a62122408,
+        type: 3}
+      propertyPath: jumpForce
+      value: 700
+      objectReference: {fileID: 0}
+    - target: {fileID: 6995604586749506661, guid: 455cb841ed7754b4f8a65f0a62122408,
+        type: 3}
+      propertyPath: gravityModifier
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6995604586749604569, guid: 455cb841ed7754b4f8a65f0a62122408,
         type: 3}
       propertyPath: m_Name
@@ -630,7 +645,7 @@ PrefabInstance:
     - target: {fileID: 9095991437730235909, guid: b78f74aa6f3ce471795a5ee936b097c8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 24.501
+      value: 35.01
       objectReference: {fileID: 0}
     - target: {fileID: 9095991437730235909, guid: b78f74aa6f3ce471795a5ee936b097c8,
         type: 3}
